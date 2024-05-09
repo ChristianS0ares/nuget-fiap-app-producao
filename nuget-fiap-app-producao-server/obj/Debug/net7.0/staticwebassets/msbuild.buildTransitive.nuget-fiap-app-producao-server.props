@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\nuget-fiap-app-producao-server.props" />
+</Project>

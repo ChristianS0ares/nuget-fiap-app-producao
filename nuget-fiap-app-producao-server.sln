@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nuget-fiap-app-producao", "nuget-fiap-app-producao\nuget-fiap-app-producao.csproj", "{CB449388-7CDE-47DC-9785-B4562E51FADB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nuget-fiap-app-producao-common", "nuget-fiap-app-producao-common\nuget-fiap-app-producao-common.csproj", "{993C88F2-FEE8-4EAC-82C3-4EA02E77D630}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nuget-fiap-app-producao-repository", "nuget-fiap-app-producao-repository\nuget-fiap-app-producao-repository.csproj", "{DC37114F-8B51-4D10-B202-20CC184D898B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nuget-fiap-app-producao-server", "nuget-fiap-app-producao-server\nuget-fiap-app-producao-server.csproj", "{81547B52-64C8-4170-BD01-42F40CDFFF41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget-fiap-app-producao-test", "nuget-fiap-app-producao-test\nuget-fiap-app-producao-test.csproj", "{75243EEA-65DF-44E0-B848-C90C5C25B7E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget-fiap-app-producao-test-bdd", "nuget-fiap-app-producao-test-bdd\nuget-fiap-app-producao-test-bdd.csproj", "{34F99DEF-9286-40ED-AA09-01B8E800FD0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB449388-7CDE-47DC-9785-B4562E51FADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB449388-7CDE-47DC-9785-B4562E51FADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB449388-7CDE-47DC-9785-B4562E51FADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB449388-7CDE-47DC-9785-B4562E51FADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993C88F2-FEE8-4EAC-82C3-4EA02E77D630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993C88F2-FEE8-4EAC-82C3-4EA02E77D630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993C88F2-FEE8-4EAC-82C3-4EA02E77D630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993C88F2-FEE8-4EAC-82C3-4EA02E77D630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC37114F-8B51-4D10-B202-20CC184D898B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC37114F-8B51-4D10-B202-20CC184D898B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC37114F-8B51-4D10-B202-20CC184D898B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC37114F-8B51-4D10-B202-20CC184D898B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81547B52-64C8-4170-BD01-42F40CDFFF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81547B52-64C8-4170-BD01-42F40CDFFF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81547B52-64C8-4170-BD01-42F40CDFFF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81547B52-64C8-4170-BD01-42F40CDFFF41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75243EEA-65DF-44E0-B848-C90C5C25B7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75243EEA-65DF-44E0-B848-C90C5C25B7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75243EEA-65DF-44E0-B848-C90C5C25B7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75243EEA-65DF-44E0-B848-C90C5C25B7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F99DEF-9286-40ED-AA09-01B8E800FD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F99DEF-9286-40ED-AA09-01B8E800FD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F99DEF-9286-40ED-AA09-01B8E800FD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F99DEF-9286-40ED-AA09-01B8E800FD0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27CC981A-9618-4E82-9300-4A5D2E911D47}
+	EndGlobalSection
+EndGlobal

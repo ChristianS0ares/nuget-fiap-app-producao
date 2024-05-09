@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vKrYzNqYMDikcO8rv/I6BlBxLX8hlXhcNybZHbjBsD4=",
+  "Source": "nuget-fiap-app-producao-server",
+  "BasePath": "_content/nuget-fiap-app-producao-server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

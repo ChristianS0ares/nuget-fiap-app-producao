@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\nuget-fiap-app-producao-server.props" />
+</Project>
