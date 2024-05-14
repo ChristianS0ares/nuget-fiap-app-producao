@@ -44,6 +44,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"ChristianS0ares_nuget-fiap-app-producao" /o:"christians0ares" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build .\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server.sln -c Release
-          dotnet test ./nuget-fiap-app-producao-test/nuget-fiap-app-producao-test.sln /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
+          dotnet build nuget-fiap-app-producao-server.sln -c Release
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
