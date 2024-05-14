@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>nuget_fiap_app_producao</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\nuget-fiap-app-producao-common\nuget-fiap-app-producao-common.csproj" />
+    <ProjectReference Include="..\nuget-fiap-app-producao-repository\nuget-fiap-app-producao-repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+{
+  "nuget-fiap-app-producao-common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common",
+  "nuget-fiap-app-producao-repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-repository",
+  "nuget-fiap-app-producao-server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server",
+  "nuget-fiap-app-producao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao"
+}
