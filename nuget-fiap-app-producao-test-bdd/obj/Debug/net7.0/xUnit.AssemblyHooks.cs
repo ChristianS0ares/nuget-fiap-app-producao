@@ -7,7 +7,7 @@ using global::System.Runtime.CompilerServices;
 [assembly: global::Xunit.TestFramework("TechTalk.SpecFlow.xUnit.SpecFlowPlugin.XunitTestFrameworkWithAssemblyFixture", "TechTalk.SpecFlow.xUnit.SpecFlowPlugin")]
 [assembly: global::TechTalk.SpecFlow.xUnit.SpecFlowPlugin.AssemblyFixture(typeof(global::nuget_fiap_app_producao_test_bdd_XUnitAssemblyFixture))]
 
-[GeneratedCode("SpecFlow", "3.9.74")]
+[GeneratedCode("SpecFlow", "3.9.40")]
 public class nuget_fiap_app_producao_test_bdd_XUnitAssemblyFixture : global::System.IDisposable
 {
     private readonly global::System.Reflection.Assembly _currentAssembly;

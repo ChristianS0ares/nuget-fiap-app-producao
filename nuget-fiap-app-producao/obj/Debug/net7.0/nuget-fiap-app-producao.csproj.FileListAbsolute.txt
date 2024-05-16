@@ -1,8 +1,3 @@
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.csproj.AssemblyReference.cache
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.GeneratedMSBuildEditorConfig.editorconfig
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.AssemblyInfoInputs.cache
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.AssemblyInfo.cs
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.csproj.CoreCompileInputs.cache
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\bin\Debug\net7.0\nuget-fiap-app-producao.deps.json
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\bin\Debug\net7.0\nuget-fiap-app-producao.dll
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\bin\Debug\net7.0\nuget-fiap-app-producao.pdb
@@ -10,6 +5,11 @@ D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\bin\De
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\bin\Debug\net7.0\nuget-fiap-app-producao-repository.dll
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\bin\Debug\net7.0\nuget-fiap-app-producao-common.pdb
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\bin\Debug\net7.0\nuget-fiap-app-producao-repository.pdb
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.csproj.AssemblyReference.cache
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.GeneratedMSBuildEditorConfig.editorconfig
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.AssemblyInfoInputs.cache
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.AssemblyInfo.cs
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.csproj.CoreCompileInputs.cache
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fi.F8F2FD9E.Up2Date
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\nuget-fiap-app-producao.dll
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao\obj\Debug\net7.0\refint\nuget-fiap-app-producao.dll

@@ -1,45 +1,38 @@
-@bdd
-Funcionalidade: Gerenciamento da ProduÁ„o de Pedidos de Lanchonete
-    Como um usu·rio da API
-    Eu quero gerenciar a produÁ„o de pedidos de uma lanchonete
+ÔªøFeature: Gerenciamento da Produ√ß√£o de Pedidos de Lanchonete
+    Como um usu√°rio da API
+    Eu quero gerenciar a produ√ß√£o de pedidos de uma lanchonete
 
 @bdd
-Cen·rio: Obter todos os pedidos j· enviados para produÁ„o
-    Dado que eu adicionei na esteira de produÁ„o um pedido do cliente "Guilherme Arana"
-    Quando eu solicito a lista de pedidos enviados para produÁ„o
-    Ent„o eu devo receber uma lista contendo o pedido do cliente "Guilherme Arana" com seu respectivo status de produÁ„o
+Scenario: Obter todos os pedidos j√° enviados para produ√ß√£o por cliente
+    Given que eu adicionei na esteira de produ√ß√£o um pedido do cliente "Guilherme Arana"
+    When eu solicito a lista de pedidos enviados para produ√ß√£o
+    Then eu devo receber uma lista contendo o pedido do cliente "Guilherme Arana"
 
 @bdd
-Cen·rio: Adicionar uma nova produÁ„o de pedido
-    Dado que eu o pagamento est· OK pela API de Pagamento
-    Quando eu adiciono um pedido na esteira de produÁ„o
-    Ent„o o pedido deve ser adicionado com sucesso com o status "Recebido"
+Scenario: Adicionar uma nova produ√ß√£o de pedido
+    Given que o pagamento est√° OK pela API de Pagamento
+    When eu solicito o pedido da esteira de produ√ß√£o
+    Then o pedido deve ser adicionado com sucesso com o status "Recebido"
 
 @bdd
-Cen·rio: Obter produÁ„o de pedido por ID
-    Dado que eu adicionei na esteira de produÁ„o um pedido do cliente "Eduardo Vargas"
-    Quando eu solicito o status daquela produÁ„o pelo seu ID
-    Ent„o eu devo receber o status da produÁ„o do pedido do cliente "Eduardo Vargas"
+Scenario: Atualizar o status de produ√ß√£o de um pedido existente
+    Given que eu adicionei na esteira de produ√ß√£o um pedido do cliente "Mat√≠as Zaracho"
+    When eu atualizo o status de produ√ß√£o daquele pedido para alterar o status de Recebido para "Em Prepara√ß√£o"
+    And eu solicito a produ√ß√£o do pedido pelo seu ID
+    Then eu devo receber o status da produ√ß√£o do pedido atualizado para "Em Prepara√ß√£o"
 
 @bdd
-Cen·rio: Atualizar o status de produÁ„o de um pedido existente
-    Dado que eu adicionei na esteira de produÁ„o um pedido para o cliente "MatÌas Zaracho"
-    Quando eu atualizo o status de produÁ„o daquele pedido para alterar o status de "Recebido" para "Em PreparaÁ„o"
-    E eu solicito a produÁ„o do pedido pelo seu ID
-    Ent„o eu devo receber o status da produÁ„o do pedido atualizado para "Em PreparaÁ„o"
+Scenario: Excluir a produ√ß√£o de um pedido
+    Given que eu adicionei na esteira de produ√ß√£o um pedido do cliente "Alan Franco"
+    When eu excluo a produ√ß√£o do pedido do cliente pelo ID da produ√ß√£o
+    Then a produ√ß√£o do pedido do cliente "Alan Franco" n√£o deve mais existir
 
 @bdd
-Cen·rio: Excluir a produÁ„o de um pedido
-    Dado que eu adicionei na esteira de produÁ„o um pedido para o cliente "Alan Franco"
-    Quando eu excluo a produÁ„o do pedido do cliente "Alan Franco"
-    Ent„o a produÁ„o do pedido do cliente "Alan Franco" n„o deve mais existir
+Scenario: Tentativa de atualizar o status de produ√ß√£o de um pedido inexistente
+    Given eu tento atualizar o status de produ√ß√£o de um pedido com o ID inexistente "12345"
+    Then eu devo receber uma mensagem de erro informando que a produ√ß√£o do pedido n√£o existe
 
 @bdd
-Cen·rio: Tentativa de atualizar o status de produÁ„o de um pedido inexistente
-    Quando eu tento atualizar o status de produÁ„o de um pedido com o ID inexistente "12345"
-    Ent„o eu devo receber uma mensagem de erro informando que a produÁ„o do pedido n„o existe
-
-@bdd
-Cen·rio: Tentativa de excluir a produÁ„o de um pedido inexistente
-    Quando eu tento excluir a produÁ„o de um pedido com o ID inexistente "54321"
-    Ent„o eu devo receber uma mensagem de erro informando que a produÁ„o do pedido n„o existe
+Scenario: Tentativa de excluir a produ√ß√£o de um pedido inexistente
+    Given eu tento excluir a produ√ß√£o de um pedido com o ID inexistente "54321"
+    Then eu devo receber uma mensagem de erro informando que a produ√ß√£o do pedido n√£o existe

@@ -1,9 +1,3 @@
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.csproj.AssemblyReference.cache
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.GeneratedMSBuildEditorConfig.editorconfig
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.AssemblyInfoInputs.cache
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.AssemblyInfo.cs
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.csproj.CoreCompileInputs.cache
-D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.MvcApplicationPartsAssemblyInfo.cache
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\bin\Debug\net7.0\appsettings.Development.json
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\bin\Debug\net7.0\appsettings.json
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\bin\Debug\net7.0\nuget-fiap-app-producao-server.exe
@@ -43,7 +37,13 @@ D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\bin\Debug\net7.0\nuget-fiap-app-producao-repository.pdb
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\bin\Debug\net7.0\nuget-fiap-app-producao.pdb
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\bin\Debug\net7.0\nuget-fiap-app-producao-common.pdb
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.csproj.AssemblyReference.cache
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.GeneratedMSBuildEditorConfig.editorconfig
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.AssemblyInfoInputs.cache
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.AssemblyInfo.cs
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.csproj.CoreCompileInputs.cache
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.MvcApplicationPartsAssemblyInfo.cs
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\nuget-fiap-app-producao-server.MvcApplicationPartsAssemblyInfo.cache
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\staticwebassets.build.json
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\staticwebassets.development.json
 D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-server\obj\Debug\net7.0\staticwebassets\msbuild.nuget-fiap-app-producao-server.Microsoft.AspNetCore.StaticWebAssets.props
