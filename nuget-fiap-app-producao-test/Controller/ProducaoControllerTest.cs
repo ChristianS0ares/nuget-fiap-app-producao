@@ -50,7 +50,7 @@ namespace nuget_fiap_app_producao_test.Controller
 
         [Fact]
         [Trait("Category", "Unit")]
-        public async Task GetById_ShouldReturn200OK_WhenPedidoExists()
+        public async Task GetById_ShouldReturn200OK_WhenProducaoExists()
         {
             var pedido = new Producao { Id = "1" };
             _producaoServiceMock.Setup(x => x.GetProducaoById("1")).ReturnsAsync(pedido);
@@ -64,7 +64,7 @@ namespace nuget_fiap_app_producao_test.Controller
 
         [Fact]
         [Trait("Category", "Unit")]
-        public async Task GetById_ShouldReturn404NotFound_WhenPedidoDoesNotExist()
+        public async Task GetById_ShouldReturn404NotFound_WhenProducaoDoesNotExist()
         {
             _producaoServiceMock.Setup(x => x.GetProducaoById("1")).ReturnsAsync((Producao)null);
 
@@ -75,7 +75,7 @@ namespace nuget_fiap_app_producao_test.Controller
 
         [Fact]
         [Trait("Category", "Unit")]
-        public async Task Post_ShouldReturn201Created_WhenPedidoIsCreated()
+        public async Task Post_ShouldReturn201Created_WhenProducaoIsCreated()
         {
             var pedido = new Producao();
             _producaoServiceMock.Setup(x => x.AddProducao(It.IsAny<Producao>())).ReturnsAsync("1");
@@ -84,14 +84,14 @@ namespace nuget_fiap_app_producao_test.Controller
 
             result.Should().BeOfType<CreatedAtRouteResult>();
             var createdResult = result as CreatedAtRouteResult;
-            createdResult.RouteName.Should().Be("GetPedidoById");
+            createdResult.RouteName.Should().Be("GetProducaoById");
             createdResult.RouteValues["id"].Should().Be("1");
             createdResult.Value.Should().BeEquivalentTo(pedido);
         }
 
         [Fact]
         [Trait("Category", "Unit")]
-        public async Task Put_ShouldReturn200OK_WhenPedidoIsUpdated()
+        public async Task Put_ShouldReturn200OK_WhenProducaoIsUpdated()
         {
             _producaoServiceMock.Setup(x => x.UpdateProducao(It.IsAny<Producao>(), "1")).ReturnsAsync(true);
 
@@ -102,7 +102,7 @@ namespace nuget_fiap_app_producao_test.Controller
 
         [Fact]
         [Trait("Category", "Unit")]
-        public async Task Put_ShouldReturn404NotFound_WhenPedidoDoesNotExist()
+        public async Task Put_ShouldReturn404NotFound_WhenProducaoDoesNotExist()
         {
             _producaoServiceMock.Setup(x => x.UpdateProducao(It.IsAny<Producao>(), "1")).ReturnsAsync(false);
 
@@ -113,7 +113,7 @@ namespace nuget_fiap_app_producao_test.Controller
 
         [Fact]
         [Trait("Category", "Unit")]
-        public async Task Delete_ShouldReturn204NoContent_WhenPedidoIsDeleted()
+        public async Task Delete_ShouldReturn204NoContent_WhenProducaoIsDeleted()
         {
             _producaoServiceMock.Setup(x => x.DeleteProducao("1")).ReturnsAsync(true);
 
@@ -124,7 +124,7 @@ namespace nuget_fiap_app_producao_test.Controller
 
         [Fact]
         [Trait("Category", "Unit")]
-        public async Task Delete_ShouldReturn404NotFound_WhenPedidoDoesNotExist()
+        public async Task Delete_ShouldReturn404NotFound_WhenProducaoDoesNotExist()
         {
             _producaoServiceMock.Setup(x => x.DeleteProducao("1")).ReturnsAsync(false);
 

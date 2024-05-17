@@ -63,18 +63,18 @@ namespace nuget_fiap_app_producao_test.Service
                 Status = StatusProducao.Recebido
             };
 
-            var pedidoId = await _producaoService.AddProducao(producao);
-            producao.Id = pedidoId; // Atualizar o ID para garantir consistência
+            var producaoId = await _producaoService.AddProducao(producao);
+            producao.Id = producaoId; // Atualizar o ID para garantir consistência
             producao.Status = StatusProducao.EmPreparacao;
 
-            var resultado = await _producaoService.UpdateProducao(producao, pedidoId);
+            var resultado = await _producaoService.UpdateProducao(producao, producaoId);
 
             resultado.Should().BeTrue();
 
-            var pedidoAtualizado = await _producaoService.GetProducaoById(pedidoId);
+            var pedidoAtualizado = await _producaoService.GetProducaoById(producaoId);
 
             pedidoAtualizado.Should().NotBeNull();
-            pedidoAtualizado.Status.Should().Be(StatusProducao.Recebido);
+            pedidoAtualizado.Status.Should().Be(StatusProducao.EmPreparacao);
         }
 
         [Fact]

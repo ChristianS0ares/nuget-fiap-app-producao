@@ -10,7 +10,7 @@ services:
       ME_CONFIG_BASICAUTH_USERNAME: admin
       ME_CONFIG_BASICAUTH_PASSWORD: pass123
       ME_CONFIG_MONGODB_PORT: 27017
-      ME_CONFIG_MONGODB_SERVER: mongo  
+      ME_CONFIG_MONGODB_SERVER: mongo
       ME_CONFIG_MONGODB_ADMINUSERNAME: admin
       ME_CONFIG_MONGODB_ADMINPASSWORD: pass123
     links:
@@ -36,7 +36,7 @@ services:
     environment:
       DB_PASSWORD: pass123
       DB_USER: admin
-      DB_HOST: localhost  
+      DB_HOST: localhost
     ports:
       - "8082:80"
     depends_on:

@@ -1,0 +1,407 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-test-bdd\\nuget_fiap_app_producao_test_bdd.csproj": {}
+  },
+  "projects": {
+    "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common\\nuget-fiap-app-producao-common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common\\nuget-fiap-app-producao-common.csproj",
+        "projectName": "nuget-fiap-app-producao-common",
+        "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common\\nuget-fiap-app-producao-common.csproj",
+        "packagesPath": "C:\\Users\\Ucra\\.nuget\\packages\\",
+        "outputPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ucra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-repository\\nuget-fiap-app-producao-repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-repository\\nuget-fiap-app-producao-repository.csproj",
+        "projectName": "nuget-fiap-app-producao-repository",
+        "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-repository\\nuget-fiap-app-producao-repository.csproj",
+        "packagesPath": "C:\\Users\\Ucra\\.nuget\\packages\\",
+        "outputPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ucra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common\\nuget-fiap-app-producao-common.csproj": {
+                "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common\\nuget-fiap-app-producao-common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server.csproj",
+        "projectName": "nuget-fiap-app-producao-server",
+        "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server.csproj",
+        "packagesPath": "C:\\Users\\Ucra\\.nuget\\packages\\",
+        "outputPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ucra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-repository\\nuget-fiap-app-producao-repository.csproj": {
+                "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-repository\\nuget-fiap-app-producao-repository.csproj"
+              },
+              "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao\\nuget-fiap-app-producao.csproj": {
+                "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao\\nuget-fiap-app-producao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.20.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.ReDoc": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-test-bdd\\nuget_fiap_app_producao_test_bdd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-test-bdd\\nuget_fiap_app_producao_test_bdd.csproj",
+        "projectName": "nuget_fiap_app_producao_test_bdd",
+        "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-test-bdd\\nuget_fiap_app_producao_test_bdd.csproj",
+        "packagesPath": "C:\\Users\\Ucra\\.nuget\\packages\\",
+        "outputPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-test-bdd\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ucra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common\\nuget-fiap-app-producao-common.csproj": {
+                "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common\\nuget-fiap-app-producao-common.csproj"
+              },
+              "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server.csproj": {
+                "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-server.csproj"
+              },
+              "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao\\nuget-fiap-app-producao.csproj": {
+                "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao\\nuget-fiap-app-producao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao\\nuget-fiap-app-producao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao\\nuget-fiap-app-producao.csproj",
+        "projectName": "nuget-fiap-app-producao",
+        "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao\\nuget-fiap-app-producao.csproj",
+        "packagesPath": "C:\\Users\\Ucra\\.nuget\\packages\\",
+        "outputPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ucra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common\\nuget-fiap-app-producao-common.csproj": {
+                "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-common\\nuget-fiap-app-producao-common.csproj"
+              },
+              "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-repository\\nuget-fiap-app-producao-repository.csproj": {
+                "projectPath": "D:\\FIAP\\FASE4\\UCRA\\nuget-fiap-app-producao-server\\nuget-fiap-app-producao-repository\\nuget-fiap-app-producao-repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-test-bdd\obj\Debug\net7.0\nuget-fiap-app-producao-test-bdd.csproj.AssemblyReference.cache
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-test-bdd\obj\Debug\net7.0\MvcTestingAppManifest.json
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-test-bdd\obj\Debug\net7.0\nuget-fiap-app-producao-test-bdd.GeneratedMSBuildEditorConfig.editorconfig
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-test-bdd\obj\Debug\net7.0\nuget-fiap-app-producao-test-bdd.AssemblyInfoInputs.cache
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-test-bdd\obj\Debug\net7.0\nuget-fiap-app-producao-test-bdd.AssemblyInfo.cs
+D:\FIAP\FASE4\UCRA\nuget-fiap-app-producao-server\nuget-fiap-app-producao-test-bdd\obj\Debug\net7.0\nuget-fiap-app-producao-test-bdd.csproj.CoreCompileInputs.cache
